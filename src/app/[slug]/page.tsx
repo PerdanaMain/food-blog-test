@@ -89,7 +89,6 @@ const Page = () => {
                           <h5 className="card-title fw-bold mt-3">
                             {meal.strMeal}
                           </h5>
-                          <p>{meal.idMeal}</p>
                           <Modal id={meal.idMeal} />
                         </div>
                       </div>
